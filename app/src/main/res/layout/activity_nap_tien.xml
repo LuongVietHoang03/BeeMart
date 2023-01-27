@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:id="@+id/napTien"
+
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/idToolBar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_200"
+        android:theme="@style/ToolbarColoredBackArrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boder_vi_1"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idToolBar">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:src="@drawable/logo_vi"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/edNhapSoTien"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/border_one_line_backgrond"
+            android:fontFamily="@font/inter_extra_blod"
+            android:hint="@string/tv_nhap_so_tien"
+            android:padding="20dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="196dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="395dp"
+        android:layout_height="206dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="167dp"
+            android:layout_height="25dp"
+            android:text="@string/tv_chon_nhanh_so_tien"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="268dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/btn50"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/boder_vi"
+                android:text="@string/tv_50000"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+            <Button
+                android:id="@+id/btn100"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/boder_vi"
+                android:text="@string/tv_100000"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+            <Button
+                android:id="@+id/btn200"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/boder_vi"
+                android:text="@string/tv_200000"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
+            tools:layout_editor_absoluteX="0dp">
+
+            <Button
+                android:id="@+id/btn500"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/boder_vi"
+                android:text="@string/tv_500000"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+            <Button
+                android:id="@+id/btn1000"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/boder_vi"
+                android:text="@string/tv_1000000"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+            <Button
+                android:id="@+id/btn2000"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/boder_vi"
+                android:text="@string/tv_2000000"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/boder_vi"
+        android:text="@string/tv_xac_nhan"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        app:layout_constraintVertical_bias="0.596" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

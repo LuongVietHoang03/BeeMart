@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentDoiMatKhau"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    android:id="@+id/fragDoiMatKhau">
+    <ImageView
+        android:id="@+id/imgCart"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/icon_box"
+
+         />
+
+
+    <ImageView
+        android:id="@+id/imgLoa"
+        android:layout_width="191dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/icon_coin"
+        android:layout_alignParentRight="true"
+
+      />
+
+
+    <ImageView
+        android:id="@+id/imgBodyLogin"
+        android:layout_width="600dp"
+
+        android:layout_height="600dp"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginTop="-130dp"
+        android:alpha="0.5"
+        android:src="@drawable/background_3d_doi_mat_khau" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+    android:layout_marginTop="-50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/logo_color" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="-80dp"
+
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_extra_blod"
+            android:text="@string/tv_password"
+            android:textColor="@color/mauChuLogin"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edOldPassWordDiaLog"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_edittext_login"
+            android:fontFamily="@font/inter_extra_blod"
+
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_extra_blod"
+            android:text="@string/new_pass"
+            android:textColor="@color/mauChuLogin"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edNewPassWordDialog"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:background="@drawable/border_edittext_login"
+            android:fontFamily="@font/inter_extra_blod" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_extra_blod"
+            android:text="@string/re_pass"
+            android:textColor="@color/mauChuLogin"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edRePassWordDialog"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:background="@drawable/border_edittext_login"
+            android:fontFamily="@font/inter_extra_blod" />
+
+        <Button
+            android:id="@+id/btnDoiMatKhauNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_radius_buttom_30"
+            android:fontFamily="@font/inter_extra_blod"
+            android:text="@string/tv_doi_mat_khau"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</RelativeLayout>

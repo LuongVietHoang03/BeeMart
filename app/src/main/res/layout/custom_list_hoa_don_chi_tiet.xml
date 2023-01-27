@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/boder_one_line_cam"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp">
+
+    <ImageView
+        android:id="@+id/imgAvataSanPham"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_app"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_extra_blod"
+                android:hint="Mã hoá đơn: "
+                android:textColor="@color/mauDenHoaDon"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tvMaHoaDon"
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_extra_blod"
+                android:hint="Mã hoá đơn: "
+                android:textColor="@color/mauDenHoaDon"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_extra_blod"
+                android:hint="Tên sản phẩm: "
+                android:textColor="@color/mauDenHoaDon"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tvTenSanPham"
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_extra_blod"
+                android:hint="Tên sản phẩm: "
+                android:textColor="@color/mauDenHoaDon"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_extra_blod"
+                android:hint="Số lượng: "
+                android:textColor="@color/mauDenHoaDon"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tvSoLuong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:fontFamily="@font/inter_extra_blod"
+                android:hint="Số lượng: "
+                android:textColor="@color/mauDenHoaDon"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_extra_blod"
+                android:hint="Tổng tiền: "
+                android:textColor="@color/mauDenHoaDon"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tvTongTien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:fontFamily="@font/inter_extra_blod"
+                android:hint="Tổng tiền: "
+                android:textColor="@color/mauDenHoaDon"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

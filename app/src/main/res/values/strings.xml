@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">BeeMart</string>
+    <string name="tv_login">Đăng Nhập</string>
+    <string name="tv_username">Username</string>
+    <string name="tv_password">Password</string>
+    <string name="tv_nho_mat_khau">Nhớ Mật Khẩu</string>
+    <string name="tv_man_hinh_chinh">Màn hình chính</string>
+    <string name="tv_quan_ly_loai_san_pham">Quản lý loại sản phẩm</string>
+    <string name="tv_quan_ly_san_pham">Quản lý sản phẩm</string>
+    <string name="tv_quan_ly_hoa_don">Quản lý hóa đơn</string>
+    <string name="tv_quan_ly_member">Quản lý khách hàng</string>
+    <string name="tv_thong_ke">Thống kê</string>
+    <string name="tv_doanh_so_nhan_vien">Doanh số nhân viên</string>
+    <string name="tv_doanh_so">Thống kê</string>
+    <string name="o_dong">0 VND</string>
+    <string name="lien_ket_tai_khoan">Liên kết tài khoản</string>
+    <string name="doanh_so">Doanh số:</string>
+    <string name="tv_thong_tin_nguoi_dung">Chức năng khác</string>
+    <string name="tv_them_nhan_vien">Quản lý nhân viên</string>
+    <string name="tv_doi_mat_khau">Đổi mật khẩu</string>
+    <string name="tv_them_thanh_vien">Thêm khách hàng</string>
+    <string name="tv_dang_xuat">Đăng Xuất</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="that_bai">Đăng nhập thất bại</string>
+    <string name="thanh_cong">Đăng nhập thành công</string>
+    <string name="khong_de_trong">Không được để trống !</string>
+    <string name="re_pass">Re - password</string>
+    <string name="them_nhan_vien">Thêm nhân viên</string>
+    <string name="huy">Hủy</string>
+    <string name="them_thanh_cong">Thêm thành công</string>
+    <string name="thu_lai">Thất bại ,vui lòng thử lại !</string>
+    <string name="canh_bao">Cảnh báo !</string>
+    <string name="dong_y">Đồng ý</string>
+    <string name="ban_chac_chan">Bạn có chắc chắn muốn xóa :</string>
+    <string name="xoa_thanh_cong">Xóa thành công</string>
+    <string name="new_pass">New Password</string>
+    <string name="mat_khau_cu_sai">Mật khẩu cũ sai</string>
+    <string name="mat_khau_khong_trung">Mật khẩu không trùng khớp</string>
+    <string name="top_san_pham">Top sản phẩm bán chạy</string>
+    <string name="them">Thêm</string>
+    <string name="dang_ly_tai_khoan">Đăng ký tài khoản</string>
+    <string name="xin_chao">Xin chào:</string>
+    <string name="diem_thuong_muon_dung">Bạn có chắc chắc muốn dùng</string>
+    <string name="quen_mau_khau">Quên mật khẩu</string>
+    <string name="otp">OTP Verification</string>
+    <string name="nhap_ma_otp">Nhập mã OTP vào đây</string>
+    <string name="khong_thay_ma">Không thấy mã ?</string>
+    <string name="gui_lai">Gửi lại</string>
+    <string name="ma_otp_gui_den">Mã OTP đã gửi đến :</string>
+
+
+    <!--    String của Quý-->
+
+    <string name="tv_ten_loai_san_pham">Tên loại sản phẩm :</string>
+    <string name="tv_them_loai_san_pham">Thêm loại sản phẩm</string>
+    <string name="tv_sua_loai_san_pham">Sửa loại sản phẩm</string>
+    <string name="tv_luu">Lưu</string>
+    <string name="tv_huy">Hủy</string>
+
+    <string name="tv_ten">Tên khách hàng</string>
+    <string name="tv_so_dien_thoai">Số điện thoại</string>
+    <string name="tv_diem_thuong">Điểm thưởng</string>
+    <string name="tv_sua_thanh_vien">Sửa khách hàng</string>
+    <string name="tv_thong_tin_khach_hang">Thông tin khách hàng</string>
+    <string name="tv_ban_la_ai">Bạn là ai ?</string>
+    <string name="tv_nhan_vien">Nhân viên</string>
+    <string name="tv_khach_hang">Khách hàng</string>
+    <string name="tv_check">Check</string>
+
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+    <!-- dialog thêm sản phẩm-->
+
+    >
+    <string name="ma_hoa_don">Mã hoá đơn:</string>
+    <string name="ma_san_pham">Mã sản phẩm:</string>
+    <string name="xac_nhan_don_hang">Xác nhận đơn hàng</string>
+    <string name="them_san_pham">Thêm sản phẩm</string>
+
+    <string name="anh_san_pham">Ảnh sản phẩm</string>
+
+    <string name="upload_image">Upload Image</string>
+
+    <string name="ten_san_pham">Tên sản phẩm</string>
+    <string name="ten_san_pham_chi_tiet">Tên sản phẩm:</string>
+
+    <string name="gia_san_pham">Giá sản phẩm</string>
+
+    <string name="loai_san_pham">Loại sản phẩm</string>
+    <string name="loai_san_pham_chi_tiet">Loại sản phẩm:</string>
+
+    <string name="giam_gia">Giảm giá(%)</string>
+
+    <string name="so_luong">Số lượng</string>
+
+    <string name="ngay_san_xuat">Ngày sản xuất</string>
+    <string name="tu_ngay">Từ Ngày</string>
+    <string name="den_ngay">Đến ngày</string>
+    <string name="ngay_san_xuat_chi_tiet">Ngày sản xuất:</string>
+
+    <string name="han_su_dung">Hạn sử dụng</string>
+    <string name="han_su_dung_chi_tiet">Hạn sử dụng:</string>
+    <string name="ten_san_pham_2">Tên sản phẩm :</string>
+
+
+    <string name="gio_hang">Giỏ hàng</string>
+
+    <string name="thanh_tien">Thành tiền:</string>
+
+    <string name="thue_VAT">Thuế VAT:</string>
+
+    <string name="phi_khac">Phí dịch vụ:</string>
+
+    <string name="tong_tien">Tổng tiền:</string>
+
+    <string name="tien_tien">0đ</string>
+
+    <string name="thanh_toan">Thanh toán</string>
+    <string name="goi_y">Gợi ý hôm nay</string>
+    <string name="xem_tat_ca">Xem tất cả</string>
+    <string name="tien">$</string>
+    <string name="thong_tin">Thông tin sản phẩm</string>
+    <string name="noi_dung">Nội dung</string>
+    <string name="them_vao_gio">Thêm vào giỏ hàng</string>
+    <string name="dia_chi">Địa chỉ</string>
+
+
+    <string name="tv_chon_nhanh_so_tien">Chọn nhanh số tiền :</string>
+    <string name="tv_so_du_vi">Số dư ví</string>
+    <string name="tv_thong_tin_dich_vu">Thông tin dịch vụ</string>
+    <string name="tv_nap_tien">Nạp tiền</string>
+    <string name="tv_xac_nhan">Xác nhận</string>
+    <string name="tv_nhap_so_tien">Nhập số tiền (đ)</string>
+    <string name="tv_so_tien">*********</string>
+
+    <string name="tv_50000">50000 đ</string>
+    <string name="tv_100000">100000 đ</string>
+    <string name="tv_200000">200000 đ</string>
+    <string name="tv_500000">500000 đ</string>
+    <string name="tv_1000000">1000000 đ</string>
+    <string name="tv_2000000">2000000 đ</string>
+    <string name="nap_tien">Nạp tiền</string>
+    <string name="opps">Opps !</string>
+    <string name="gio_hang_trong">Bạn chưa thêm sản phẩm nào vào giỏ hàng</string>
+    <string name="thong_bao_trong">Chưa có giữ liệu</string>
+
+    <string name="thong_tin_ca_nhan">Thông tin cá nhân</string>
+
+    <string name="ten_khach_hang">Tên khách hàng</string>
+
+    <string name="username_kh">Username</string>
+
+    <string name="dia_chi_1">địa chỉ 1</string>
+
+    <string name="dia_chi_2">địa chỉ</string>
+
+    <string name="email">Email</string>
+
+    <string name="so_dien_thoai">số điện thoại</string>
+
+    <string name="diem_thuong">điểm thưởng</string>
+    <string name="ten_kh">Tên KH:</string>
+    <string name="so_luong_san_pham_mua">Số lượng sản phẩm đã mua</string>
+    <string name="tong_tien_hoa_don">Tổng tiền hóa đơn:</string>
+    <string name="ten_nv">Tên NV:</string>
+    <string name="tong_so_hoa_don">Tổng số hóa đơn:</string>
+    <string name="tong_doanh_thu">Tổng doanh thu</string>
+    <string name="trong_kho">Trong kho:</string>
+    <string name="thong_tin_san_pham">Thông tin sản phẩm</string>
+    <string name="xac_nhan">Xác nhận</string>
+    <string name="xac_nhan_don">Xác nhận đơn</string>
+    <string name="quet_qr">Quét QR</string>
+    <string name="diem_thuong_defalse">Điểm thưởng hiện có: 0 điểm</string>
+    <string name="phuong_thuc_thanh_toan">Phương thức thanh toán</string>
+    <string name="vi_pee_pay">Ví BeePay</string>
+    <string name="dia_chi_nhan_hang">Địa chỉ nhận hàng</string>
+    <string name="name_torial">Lương Việt Hoàng - 0862350882</string>
+    <string name="dia_chi_test">Lực Hành - Yên Sơn - Tuyên Quang</string>
+    <string name="xac_nhan_vi">Vui lòng nhập mật khẩu </string>
+    <string name="nhap_mat_khau">Nhâp mật khẩu</string>
+    <string name="cho_xac_nhan">Giao dịch đang chờ xác nhận</string>
+    <string name="dong">Đóng</string>
+    <string name="ma_giao_dich">Mã giao dịch</string>
+    <string name="trang_thai">Trạng thái</string>
+    <string name="thoi_gian">Thời gian</string>
+    <string name="phi_giao_dich">Phí giao dịch</string>
+    <string name="cho_giao_dich">Giao dịch đang được xử lý vui lòng chờ</string>
+    <string name="dang_xu_li">Đang xử lý</string>
+    <string name="mien_phi">Miễn phí</string>
+    <string name="sua_in4">Sửa</string>
+    <string name="ma_don_hang">Mã đơn hàng:</string>
+    <string name="so_don_hang">99999</string>
+    <string name="cua_ban">của bạn</string>
+    <string name="tri_gia">trị giá</string>
+    <string name="can_duoc_xac_nhan">cần được xác nhận</string>
+    <string name="da_duoc_duyet">đã được duyệt</string>
+    <string name="ban_khong_du_tien">Bạn không đủ tiền !</string>
+    <string name="thong_bao">Thông báo</string>
+    <string name="gio_hang_title">Bạn không đủ tiền !</string>
+
+    <string name="thong_tin_cho_duyet">Thông tin chờ duyệt</string>
+    <string name="tro_lai">Trở lại</string>
+    <string name="ok">OK</string>
+    <string name="ma_khach_hang">Mã khách hàng</string>
+    <string name="so_tien">Số tiền</string>
+    <string name="tv_that_bai">Thất bại</string>
+    <string name="quan_li_bee_pay">Quản lý BeePay</string>
+    <string name="that_bai_001">Thất bại</string>
+    <string name="thanh_cong_001">Thành công</string>
+
+    <string name="sap_xep_theo_loai">Sắp xếp theo loại:</string>
+    <string name="sap_xep_theo">Sắp xếp theo:</string>
+
+    <string-array name="planets_array">
+        <item>---Chọn---</item>
+        <item>Giá: Tăng dần</item>
+        <item>Giá: Giảm dần</item>
+        <item>Mới nhất</item>
+    </string-array>
+</resources>

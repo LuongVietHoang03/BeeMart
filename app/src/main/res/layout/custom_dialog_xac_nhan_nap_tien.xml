@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border_one_line_backgrond"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/tvLoaiSanPham"
+            android:text="@string/xac_nhan_vi"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/inter_extra_blod"
+            android:textColor="@color/mauChuLogin"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nhap_mat_khau"
+                android:fontFamily="@font/inter_extra_blod"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/edMatKhau"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:fontFamily="@font/inter_extra_blod"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_one_line_backgrond"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLuu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/border_radius_button"
+                android:text="@string/tv_luu"/>
+
+            <Button
+                android:id="@+id/btnHuy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:background="@drawable/border_radius_buttonhuy"
+                android:text="@string/tv_huy"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

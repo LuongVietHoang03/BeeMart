@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/color_item"
+    android:padding="15dp">
+    <ImageView
+        android:id="@+id/imgBieuTuong"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_vi"/>
+    <TextView
+        android:id="@+id/tvVi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vi_pee_pay"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:fontFamily="@font/inter_extra_blod"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cns_lsp"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/border_item_cart_list"
+   >
+        <ImageView
+            android:id="@+id/imageAvataSanPham"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageAvataSanPham"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tenSanPham"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+
+
+                android:fontFamily="@font/inter_mediun"
+                android:text="Tên sản phẩm"
+                android:textColor="@color/mauChuLogin"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvGiaGoc"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/inter_mediun"
+                android:text="200000 "
+                android:textColor="@color/mauChuLogin" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btnMinus"
+                android:layout_width="20dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/ic_minus" />
+
+            <TextView
+                android:id="@+id/tvSoLuong"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/inter_mediun"
+                android:background="@drawable/border_dialog_question"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/mauChuLogin" />
+
+            <ImageView
+                android:id="@+id/btnPlus"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_baseline_add_24" />
+
+            <TextView
+                android:id="@+id/tvGiaTong"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/inter_mediun"
+                android:text="200000"
+                android:textColor="@color/mauChuLogin"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="100dp"
+        android:alpha="0"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/iconDelete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:translationX="-20dp"
+            android:layout_marginTop="-4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.826"
+            app:srcCompat="@drawable/icon_delete" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

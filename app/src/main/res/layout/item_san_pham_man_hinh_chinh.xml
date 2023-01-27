@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="115dp"
+    android:layout_height="152dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_marginRight="15dp">
+
+
+    <ImageView
+        android:id="@+id/imgSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/avata_san_pham"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvTenSanPhamManHinhChinh"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="@string/tv_nhan_vien"
+                android:textColor="@color/mauChuLogin"
+                android:fontFamily="@font/inter_extra_blod"/>
+            <TextView
+                android:id="@+id/tvGiaSanPhamManHinhChinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tien_tien"
+                android:textSize="12dp"
+                android:textColor="@color/mauChuLogin"
+                android:fontFamily="@font/inter_mediun"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgCartManHinhChinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_cart_mau_do"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

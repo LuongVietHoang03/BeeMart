@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentThongKe"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:id="@+id/linerThongKe"
+    android:background="@color/purple_200">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTuNgay"
+            android:layout_width="123dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/border_radius_buttonngaysx"
+            android:text="@string/tu_ngay"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edTuNgay"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/border_radius_edngay" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDenNgay"
+            android:layout_width="123dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/border_radius_buttonngaysx"
+            android:text="@string/den_ngay"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edDenNgay"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/border_radius_edngay" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnXacNhanThongKe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/xac_nhan"
+        android:layout_gravity="center"
+        android:background="@drawable/border_dialog_question"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/doanh_so"
+            android:fontFamily="@font/inter_extra_blod"
+            android:textSize="20dp"
+            android:textColor="@color/maudo_002"/>
+        <TextView
+            android:id="@+id/tvDoanhThu"
+            android:layout_width="wrap_content"
+            android:text="@string/o_dong"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_extra_blod"
+            android:textSize="20dp"
+            android:textColor="@color/mauXanhThongBao" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top 10 sản phẩm bán chạy"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_extra_blod"
+        android:textSize="16dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclierViewSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+
+
+</LinearLayout>

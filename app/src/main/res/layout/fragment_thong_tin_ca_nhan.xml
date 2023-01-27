@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/purple_200"
+    android:id="@+id/fragIn4KH"
+    tools:context=".Fragment.FragmentThongTinCaNhan">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgAvatar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/avatar"
+                android:layout_marginLeft="134dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tenKhachHang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ten_khach_hang"
+                    android:fontFamily="@font/inter_extra_blod"
+                    android:textSize="24dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/diaChi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Khách hàng BeeMart"
+                    android:textSize="20dp"
+                    android:textColor="#837676"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/parent_layout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/border_thongtincanhan"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="38dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginLeft="30dp"
+                            android:src="@drawable/ic_email"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="35dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/emailKH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/email"
+                                android:textStyle="bold"
+                                android:textSize="13dp"
+                                android:padding="5dp" />
+
+                            <EditText
+                                android:id="@+id/edEmailKH"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textEmailAddress"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/inter_extra_blod"
+                                android:hint="@string/email"
+                                android:textSize="14dp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="38dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginLeft="30dp"
+                            android:src="@drawable/ic_sdt"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="35dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/sdtKH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/so_dien_thoai"
+                                android:textSize="13dp"
+                                android:textStyle="bold"
+                                android:padding="5dp" />
+
+                            <EditText
+                                android:id="@+id/edSDTKH"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/inter_extra_blod"
+                                android:hint="@string/so_dien_thoai"
+                                android:textSize="14dp"/>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/border_thongtincanhan"
+                    app:cardCornerRadius="12dp"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="38dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginLeft="30dp"
+                            android:src="@drawable/ic_location"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="35dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/diaChiKH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/dia_chi_2"
+                                android:textStyle="bold"
+                                android:textSize="12dp"
+                                android:padding="5dp" />
+
+                            <EditText
+                                android:id="@+id/edDiaChiKH"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textEmailAddress"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/inter_extra_blod"
+                                android:hint="@string/dia_chi_2"
+                                android:textSize="14dp"
+                                />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="38dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginLeft="30dp"
+                            android:src="@drawable/ic_point"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="35dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/diemThuongKH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/diem_thuong"
+                                android:textStyle="bold"
+                                android:textSize="12dp"
+                                android:padding="5dp" />
+
+                            <EditText
+                                android:id="@+id/edDiemThuongKH"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textEmailAddress"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/inter_extra_blod"
+                                android:hint="@string/diem_thuong"
+                                android:textSize="14dp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btnSua3"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boder_vi"
+                android:text="@string/sua_in4"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

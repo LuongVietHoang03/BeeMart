@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/border_item_nhan_vien"
+        android:fontFamily="@font/inter_extra_blod"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ten_nv"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                />
+
+            <TextView
+                android:id="@+id/tvTenNhanVien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFF"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tong_so_hoa_don"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tvTongsohoadon"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:layout_marginTop="15dp"
+                />
+        </LinearLayout>
+
+
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tong_doanh_thu"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:layout_marginTop="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tvTongdoanhthu"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

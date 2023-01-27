@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item android:id="@+id/itemRing"
+     android:icon="@drawable/icon_ring"
+     app:showAsAction="always"
+     android:title="@string/thong_bao"
+     app:actionLayout="@layout/layout_ring_notification"/>
+ <item android:id="@+id/itemCart"
+     android:icon="@drawable/icon_cart"
+     app:showAsAction="always"
+     android:title="@string/gio_hang_title"
+     app:actionLayout="@layout/layout_cart_product"/>
+
+</menu>

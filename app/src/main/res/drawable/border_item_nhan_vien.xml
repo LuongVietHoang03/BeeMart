@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape>
+            <padding android:top="2dp" android:right="2dp" android:bottom="2dp" android:left="1dp" />
+            <stroke android:color="@color/borderInputColorCam" android:width="2dp"  />
+            <corners android:topRightRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+
+        </shape>
+    </item>
+
+    <item>
+        <!-- create gradient you want to use with the angle you want to use -->
+        <shape android:shape="rectangle"   xmlns:android="http://schemas.android.com/apk/res/android" >
+            <solid android:color="@color/color_item"/>
+            <corners android:topRightRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+
+        </shape>
+
+    </item>
+
+</layer-list>

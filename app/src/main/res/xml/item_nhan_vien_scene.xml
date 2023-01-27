@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1500">
+       <KeyFrameSet>
+           <KeyAttribute
+               motion:motionTarget="@+id/imgChamThan"
+               motion:framePosition="100"
+               android:translationX="-100dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imageAvataNhanVien"
+               motion:framePosition="100"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imageAvataNhanVien"
+               motion:framePosition="100"
+               android:translationX="-100dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/chucVu"
+               motion:framePosition="100"
+               android:translationX="-83dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/textView"
+               motion:framePosition="100"
+               android:translationX="-80dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvTenNhanVien"
+               motion:framePosition="100"
+               android:translationX="-80dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/linerIconNhanVien"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/linerIconNhanVien"
+               motion:framePosition="100"
+               android:translationX="1dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/linerIconNhanVien"
+               motion:framePosition="53"
+               android:alpha="0" />
+
+       </KeyFrameSet>
+        <OnSwipe
+            motion:dragDirection="dragLeft"
+            motion:touchAnchorSide="left" />
+
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+    </ConstraintSet>
+</MotionScene>

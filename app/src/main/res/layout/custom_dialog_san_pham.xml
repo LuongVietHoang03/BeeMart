@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linerThongBao"
+    android:padding="15dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvThemSP"
+                    android:text="@string/them_san_pham"
+                    android:textSize="24dp"
+                    android:fontFamily="@font/inter_extra_blod"
+                    android:textColor="@color/mauChuLogin"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/btnQuetMaQr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quet_qr"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/inter_extra_blod"
+                    android:textColor="@color/mauChuLogin"
+                    android:textSize="12dp"
+                    android:drawableStart="@drawable/icon_qr"
+                    android:background="@drawable/border_diem_thuong"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/edAnhSP"
+                    android:layout_width="115dp"
+                    android:layout_height="108dp"
+                    android:src="@drawable/avatar" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_extra_blod"
+                        android:text="@string/anh_san_pham"
+                        android:textColor="@color/mauChuLogin"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btnUploadImage"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/border_radius_buttonhuy"
+                        android:text="@string/upload_image"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_extra_blod"
+                    android:text="@string/ten_san_pham"
+                    android:textColor="@color/mauChuLogin"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/edTenSP"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="15dp"
+                    android:background="@drawable/border_one_line_backgrond" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_extra_blod"
+                    android:text="@string/loai_san_pham"
+                    android:textColor="@color/mauChuLogin"
+                    android:textSize="15dp" />
+
+                <Spinner
+                    android:id="@+id/spnLoaiSP"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/border_one_line_backgrond" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_extra_blod"
+                    android:text="@string/gia_san_pham"
+                    android:textColor="@color/mauChuLogin"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/edGiaSP"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:padding="15dp"
+                    android:layout_marginTop="5dp"
+                    android:inputType="number"
+                    android:background="@drawable/border_one_line_backgrond" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_extra_blod"
+                        android:text="@string/giam_gia"
+                        android:textColor="@color/mauChuLogin"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/edGiamGia"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/border_one_line_backgrond" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_extra_blod"
+                        android:text="@string/so_luong"
+                        android:textColor="@color/mauChuLogin"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/edSoLuong"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:padding="15dp"
+                        android:inputType="number"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/border_one_line_backgrond" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnNgaySanXuat"
+                    android:layout_width="123dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="-2dp"
+                    android:background="@drawable/border_radius_buttonngaysx"
+                    android:text="@string/ngay_san_xuat"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edNgaySanXuat"
+                    android:layout_width="150dp"
+
+                    android:layout_height="45dp"
+                    android:background="@drawable/border_radius_edngay" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnHanSuDung"
+                    android:layout_width="123dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="-2dp"
+                    android:background="@drawable/border_radius_buttonngaysx"
+                    android:text="@string/han_su_dung"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edHanSuDung"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/border_radius_edngay" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btnLuu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_radius_button"
+                    android:text="@string/tv_luu"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnHuy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_radius_buttonhuy"
+                    android:text="@string/huy"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

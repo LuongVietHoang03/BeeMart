@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:background="@drawable/border_dialog_custom_top_bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/canh_bao"
+            android:textColor="@color/mauChuLogin"
+            android:fontFamily="@font/inter_extra_blod"
+            android:textSize="24dp"
+            android:layout_margin="17dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ban_chac_chan"
+                android:textColor="@color/mauChuLogin"
+                android:fontFamily="@font/inter_extra_blod"
+                android:textSize="14dp"
+                android:layout_marginLeft="17dp"/>
+            <TextView
+                android:id="@+id/tvDialogDeleteName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LuongVietHoang"
+
+                android:textColor="@color/maudo_002"
+                android:fontFamily="@font/inter_extra_blod"
+                android:textSize="17dp"
+                android:layout_marginLeft="7dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+
+
+            <Button
+                android:id="@+id/btnHuy"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_radius_button_mau_trang"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="@string/huy"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btnDongY"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_radius_button"
+                android:textColor="@color/white"
+                android:text="@string/dong_y"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

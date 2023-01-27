@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border_one_line_backgrond"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgAvataNhanVien"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/avatar" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/inter_mediun"
+                    android:text="Ảnh đại diện"
+                    android:textColor="@color/mauChuLogin"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnUploadImage"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_one_line"
+                    android:fontFamily="@font/inter_mediun"
+                    android:gravity="center"
+                    android:text="UpLoad Image"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_extra_blod"
+            android:text="Tên nhân viên"
+            android:textColor="@color/mauChuLogin"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edTenNhanVienDiaLog"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="15dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_edittext_login"
+            android:fontFamily="@font/inter_extra_blod"
+
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_extra_blod"
+            android:text="@string/tv_username"
+            android:textColor="@color/mauChuLogin"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edUserNameDialog"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:padding="15dp"
+            android:background="@drawable/border_edittext_login"
+            android:fontFamily="@font/inter_extra_blod" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_extra_blod"
+            android:text="@string/tv_password"
+            android:textColor="@color/mauChuLogin"
+            android:textSize="12sp" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            >
+
+            <EditText
+                android:id="@+id/edPassWordDialog"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/inter_extra_blod"
+                android:background="@drawable/border_edittext_login"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAddNewNhanVien"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/border_radius_button"
+                android:text="@string/them"/>
+
+            <Button
+                android:id="@+id/btnHuy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:background="@drawable/border_radius_buttonhuy"
+                android:text="@string/tv_huy"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

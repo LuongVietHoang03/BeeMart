@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="20dp"
+        android:background="@drawable/border_dialog_question"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_ban_la_ai"
+            android:textColor="@color/mauChuLogin"
+            android:fontFamily="@font/inter_extra_blod"
+            android:textSize="24dp"
+            android:layout_gravity="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginTop="30dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnNhanVien"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:fontFamily="@font/inter_extra_blod"
+                android:textSize="13dp"
+                android:layout_marginLeft="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/border_radius_button"
+                android:text="@string/tv_nhan_vien"/>
+
+            <Button
+                android:id="@+id/btnKhachHang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:textAllCaps="false"
+                android:background="@drawable/border_radius_buttonhuy"
+                android:text="@string/tv_khach_hang"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

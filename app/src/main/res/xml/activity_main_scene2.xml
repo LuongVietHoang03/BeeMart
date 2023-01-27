@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="2000"
+        >
+       <KeyFrameSet>
+            <KeyPosition
+                motion:framePosition="65"
+                motion:keyPositionType="deltaRelative"
+                motion:motionTarget="@+id/imgLogo"
+                motion:percentX="0"
+                motion:percentY="0"/>
+
+
+           <KeyAttribute
+               motion:motionTarget="@+id/imgCart"
+               motion:framePosition="100"
+               android:translationX="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoa"
+               motion:framePosition="100"
+               android:translationX="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoa"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvNhap"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvNhap"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvNhap"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvNhap"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgCart"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgStool"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgBodyLogin"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgCube"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgStool"
+               motion:framePosition="100"
+               android:alpha="0.3" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgBodyLogin"
+               motion:framePosition="100"
+               android:alpha="0.5" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgCube"
+               motion:framePosition="100"
+               android:alpha="0.4" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvUserName"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvUserName"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/edUserName"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/edUserName"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgIconUserName"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgIconUserName"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvPassWord"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvPassWord"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/edPassWord"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/edPassWord"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgIconPassWord"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgIconPassWord"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgEye"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgEye"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cbNhoMatKhau"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cbNhoMatKhau"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/btnLogin"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/btnLogin"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLogo"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/imgCart"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgCart"
+               motion:framePosition="90"
+               android:translationX="-150dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoa"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoa"
+               motion:framePosition="90"
+               android:translationX="150dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvUserName"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvUserName"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/edUserName"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/edUserName"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvPassWord"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvPassWord"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgIconUserName"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgIconUserName"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvPassWord"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvPassWord"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvPassWord"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvPassWord"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/edPassWord"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/edPassWord"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgIconPassWord"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgIconPassWord"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgEye"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgEye"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cbNhoMatKhau"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cbNhoMatKhau"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/btnLogin"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/btnLogin"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLogo"
+               motion:framePosition="76"
+               android:translationY="220dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoginGoogle"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoginGoogle"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoginGoogle"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoginGoogle"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoginFacebook"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoginFacebook"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoginFacebook"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imgLoginFacebook"
+               motion:framePosition="90"
+               android:alpha="0" />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/tvOr"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvOr"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvOr"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvOr"
+               motion:framePosition="90"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvDangKyTaiKhoan"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvDangKyTaiKhoan"
+               motion:framePosition="90"
+               android:alpha="0" />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/tvDangKyTaiKhoan"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvDangKyTaiKhoan"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+           //
+
+           <KeyAttribute
+               motion:motionTarget="@+id/tvQuenMatKhau"
+               motion:framePosition="90"
+               android:translationY="200dp" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvQuenMatKhau"
+               motion:framePosition="90"
+               android:alpha="0" />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/tvQuenMatKhau"
+               motion:framePosition="100"
+               android:alpha="1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/tvQuenMatKhau"
+               motion:framePosition="100"
+               android:translationY="0dp" />
+
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet>
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@+id/btnLogin"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="48dp"
+            android:id="@+id/tvOr" />
+    </ConstraintSet>
+</MotionScene>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_bill"
+        android:layout_marginTop="10dp"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/ma_don_hang"
+               android:layout_marginLeft="5dp"
+
+               android:layout_marginTop="10dp"
+               android:fontFamily="@font/inter_extra_blod"
+               android:textColor="@color/mauChuLogin"/>
+           <TextView
+               android:id="@+id/tvMaDonHang"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/so_don_hang"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="10dp"
+               android:fontFamily="@font/inter_extra_blod"
+               android:textColor="@color/mauChuLogin"/>
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/tri_gia"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="10dp"
+               android:fontFamily="@font/inter_extra_blod"
+               android:textColor="@color/mauChuLogin"/>
+           <TextView
+               android:id="@+id/tvTongTienHoaDon"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/so_don_hang"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="10dp"
+               android:fontFamily="@font/inter_extra_blod"
+               android:textColor="@color/mauXanhThongBao"/>
+
+
+       </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/can_duoc_xac_nhan"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="10dp"
+              android:fontFamily="@font/inter_extra_blod"
+              android:textColor="@color/mauChuLogin"/>
+
+      </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>

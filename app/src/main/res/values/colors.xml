@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FDCF76</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mauChuLogin">#494949</color>
+    <color name="borderInputColorVang">#EFD700</color>
+    <color name="borderInputColorCam">#FC630D</color>
+    <color name="mauXanh">#33FF66</color>
+    <color name="mauDo">#F85050</color>
+    <color name="mauVang">#FFEF61</color>
+    <color name="maudo_002">#EF0252</color>
+    <color name="color_item">#F9B078</color>
+    <color name="color_item_list">#D2F9B078</color>
+    <color name="color_item_shadow">#2AB3B1AE</color>
+    <color name="shadowDialog">#79817C7C</color>
+    <color name="iconColor">#FA9769</color>
+    <color name="textColorChiTiet">#615D24</color>
+    <color name="colorButtonCheck">#B6E2A1</color>
+    <color name="mauXanhThongBao">#47C91A</color>
+    <color name="mauDen01">#171C1A</color>
+    <color name="mauDenHoaDon">#494545</color>
+</resources>

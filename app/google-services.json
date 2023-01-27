@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "175799957372",
+    "project_id": "beemart-fbbec",
+    "storage_bucket": "beemart-fbbec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175799957372:android:df6a2455b9ee0b987bd6f9",
+        "android_client_info": {
+          "package_name": "beemart.fpoly.beemart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175799957372-ri7p925i459i6t1cat5ac3jd38nt1fmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "beemart.fpoly.beemart",
+            "certificate_hash": "38e2e73ac5b5df2d0aaa822e88b46abecea1a8b2"
+          }
+        },
+        {
+          "client_id": "175799957372-6253154kledvf6c0p9g9lqj2h2irhh3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW8KCeIxPc-93ziKcElYoxg-UHuRvNa9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175799957372-6253154kledvf6c0p9g9lqj2h2irhh3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

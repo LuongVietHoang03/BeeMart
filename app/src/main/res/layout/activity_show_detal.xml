@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ShowDetalActivity"
+    android:id="@+id/showDetal"
+
+    android:background="@color/purple_200">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/idToolBarGioHang"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_200"
+        android:theme="@style/ToolbarColoredBackArrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvTenSanPhamShowDetal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_extra_blod"
+        android:gravity="center"
+        android:text="@string/ten_san_pham"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idToolBarGioHang" />
+
+    <TextView
+        android:id="@+id/tvGiaSanPhamShowDetal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/inter_extra_blod"
+        android:gravity="center"
+        android:text="@string/tien"
+        android:textColor="@color/mauDo"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTenSanPhamShowDetal" />
+
+    <ImageView
+        android:id="@+id/imgAnhSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGiaSanPhamShowDetal" />
+
+
+    <ImageView
+        android:id="@+id/imgMinus"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/icon_minus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnhSanPham" />
+
+    <TextView
+        android:id="@+id/tvSoLuongShowDetal"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/inter_extra_blod"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toEndOf="@+id/imgMinus"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnhSanPham" />
+
+    <ImageView
+        android:id="@+id/imgPlus"
+        android:layout_width="27dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/icon_plus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/tvSoLuongShowDetal"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnhSanPham" />
+
+    <TextView
+        android:id="@+id/tvGioiThieuShowDetal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/inter_extra_blod"
+        android:gravity="start"
+        android:text="@string/thong_tin"
+        android:textColor="@color/mauChuLogin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgMinus" />
+
+    <TextView
+        android:id="@+id/tvNoiDungShowDetal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inter_extra_blod"
+        android:gravity="start"
+        android:text="@string/noi_dung"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGioiThieuShowDetal" />
+
+    <Button
+        android:id="@+id/btnThemVaoGioHang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/border_radius_button_hoadon"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="@string/them_vao_gio"
+        android:textAllCaps="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

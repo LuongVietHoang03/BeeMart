@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loginMain"
+    android:background="@color/purple_200"
+    app:layoutDescription="@xml/activity_main_scene2"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgCart"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/cart"
+        android:alpha="0"
+        android:translationX="-150dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgLoa"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imgLoa"
+        android:layout_width="191dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0"
+        android:src="@drawable/loa"
+        android:translationX="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toEndOf="@+id/imgCart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginLeft="45dp"
+        android:translationY="220dp"
+        android:src="@drawable/logo_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:alpha="0"
+        android:translationY="100dp"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="@string/tv_login"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <ImageView
+        android:id="@+id/imgStool"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="120dp"
+        android:alpha="0"
+        android:src="@drawable/stool"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imgBodyLogin"
+        app:layout_constraintTop_toTopOf="@+id/imgBodyLogin" />
+
+    <ImageView
+        android:id="@+id/imgBodyLogin"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0"
+        android:src="@drawable/body_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNhap" />
+
+    <ImageView
+        android:id="@+id/imgCube"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="120dp"
+        android:alpha="0"
+        android:src="@drawable/cube"
+        app:layout_constraintEnd_toStartOf="@+id/imgBodyLogin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgBodyLogin" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:alpha="0"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="@string/tv_username"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="12sp"
+        android:translationY="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNhap" />
+
+    <EditText
+        android:id="@+id/edUserName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border_edittext_login"
+        android:fontFamily="@font/inter_extra_blod"
+        android:paddingLeft="50dp"
+        android:alpha="0"
+        android:translationY="200dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserName" />
+
+    <ImageView
+        android:id="@+id/imgIconUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:alpha="0"
+        android:translationY="200dp"
+        android:src="@drawable/icon_username"
+        app:layout_constraintEnd_toEndOf="@+id/edUserName"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="@+id/edUserName"
+        app:layout_constraintTop_toTopOf="@+id/edUserName" />
+
+    <TextView
+        android:id="@+id/tvPassWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:translationY="200dp"
+        android:alpha="0"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="@string/tv_password"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edUserName" />
+
+
+    <EditText
+        android:id="@+id/edPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0"
+        android:background="@drawable/border_edittext_login"
+        android:fontFamily="@font/inter_extra_blod"
+        android:inputType="textPassword"
+        android:paddingLeft="50dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:translationY="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPassWord" />
+
+    <ImageView
+        android:id="@+id/imgIconPassWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:alpha="0"
+        android:translationY="200dp"
+        android:src="@drawable/ic_baseline_lock_24"
+        app:layout_constraintEnd_toEndOf="@+id/edPassWord"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="@+id/edPassWord"
+        app:layout_constraintTop_toTopOf="@+id/edPassWord" />
+
+    <ImageView
+        android:id="@+id/imgEye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/eye_hide"
+        android:alpha="0"
+        android:translationY="200dp"
+        app:layout_constraintEnd_toEndOf="@+id/edPassWord"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="@+id/edPassWord"
+        app:layout_constraintTop_toTopOf="@+id/edPassWord" />
+
+    <CheckBox
+        android:id="@+id/cbNhoMatKhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:buttonTint="@color/white"
+        android:alpha="0"
+        android:translationY="200dp"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="@string/tv_nho_mat_khau"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgStool"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/edPassWord" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="18dp"
+        android:alpha="0"
+        android:background="@drawable/border_radius_button"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="@string/tv_login"
+        android:textColor="@color/white"
+        android:translationY="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbNhoMatKhau" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/tvDangKyTaiKhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="@string/dang_ly_tai_khoan"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="12sp"
+        android:alpha="0"
+        android:translationY="200dp"
+        android:translationX="-6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"  />
+
+    <TextView
+        android:id="@+id/tvQuenMatKhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:alpha="0"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="@string/quen_mau_khau"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="12sp"
+        android:translationX="-6dp"
+        android:translationY="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cns_lsp"
+
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/border_item_nhan_vien"
+    app:layoutDescription="@xml/custom_list_loai_san_pham_scene">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="@string/tv_ten_loai_san_pham"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/imgLogoApp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvTenLoaiSanPham"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:layout_marginTop="6dp"
+        android:textColor="@color/mauChuLogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+    <ImageView
+        android:id="@+id/imgLogoApp"
+        android:layout_width="38dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_color" />
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+      android:gravity="center"
+        android:alpha="0"
+        android:translationX="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imSua"
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/tv_loaiSanPham"
+            app:layout_constraintStart_toEndOf="@+id/tv_loaiSanPham"
+            app:srcCompat="@drawable/icon_edit" />
+
+        <ImageView
+            android:id="@+id/imXoa"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/tv_loaiSanPham"
+            app:srcCompat="@drawable/icon_delete" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
